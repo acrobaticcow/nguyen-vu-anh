@@ -4,6 +4,6 @@ export default ({handleChange, text,icon}) => {
         // <button onClick={handleChange}>
         //     <i className={icon}>{text}</i>
         // </button>
-        <FontAwesomeIcon onClick={handleChange} icon={icon} />
+        <FontAwesomeIcon style={{cursor: "pointer"}} onClick={handleChange} icon={icon} fixedWidth  />
     )
 }
