@@ -4,3 +4,4 @@
 ## 2. Cài đặt
 npm install
 ## 3. Luyện tập sử dụng react thuần 
+## 4. Thêm phần textarea có thể dùng button để thêm bold, italic, ... dưới dạng markdown

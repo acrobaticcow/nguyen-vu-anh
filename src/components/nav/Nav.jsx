@@ -1,11 +1,10 @@
 import Button from "../button/Button";
 import "./nav.css";
-import { faBold, faItalic, faUnderline } from "@fortawesome/free-solid-svg-icons";
+import { faBold, faItalic, faUnderline, faCoffee } from "@fortawesome/free-solid-svg-icons";
 export default ({ handleBold, handleItalic, handleUnderLine }) => {
   return (
     <header>
-      <h2 className="logo">Techmaster</h2>
-      <div className="btn-group">
+      <div className="btn-group-left">
         <Button
           handleChange={handleBold}
           icon={faBold}
@@ -17,6 +16,9 @@ export default ({ handleBold, handleItalic, handleUnderLine }) => {
           icon={faItalic}
         />
         <Button handleChange={handleUnderLine} icon={faUnderline} />
+      </div>
+      <div className="bn-group-right">
+        <Button handleChange={handleBold} icon={faCoffee}/>
       </div>
     </header>
   );
